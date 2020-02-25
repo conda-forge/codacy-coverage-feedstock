@@ -22,11 +22,13 @@ requirements:
     - pip
   run:
     - python
+    - pip
     - requests >=2.9.1
 
 test:
   commands:
     - python-codacy-coverage --help
+    - pip check
 
 about:
   home: https://github.com/codacy/python-codacy-coverage
