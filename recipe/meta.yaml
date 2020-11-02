@@ -11,17 +11,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   entry_points:
     - python-codacy-coverage = codacy:main
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
     - pip
     - requests >=2.9.1
 
