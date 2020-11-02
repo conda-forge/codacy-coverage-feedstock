@@ -5,9 +5,13 @@ Home: https://github.com/codacy/python-codacy-coverage
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/codacy-coverage-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python coverage reporter for Codacy
+
+Development: https://github.com/codacy/python-codacy-coverage
+
+Documentation: https://github.com/codacy/python-codacy-coverage
 
 Credits to Ryan for creating this! Python coverage reporter for Codacy https://www.codacy.com
 
